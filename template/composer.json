@@ -6,7 +6,7 @@
     }
   ],
   "require": {
-    "tangible/plugin-framework": "dev-master"
+    "tangible/plugin-framework": "dev-variant/without-updater"
   },
   "require-dev": {},
   "minimum-stability": "dev"

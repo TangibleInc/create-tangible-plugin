@@ -15,6 +15,7 @@ const eta = require('eta')
 // Project template specific configuration
 
 const filesWithPlaceholders = [
+  'docs/index.md',
   'includes/enqueue.php',
   'package.json',
   'readme.txt',

@@ -2,6 +2,7 @@
 node_modules
 *.log
 *.local.js
+!.gitignore
 
 # Allow symlinked local packages - always use latest commit on composer/npm/yarn update
 composer.lock

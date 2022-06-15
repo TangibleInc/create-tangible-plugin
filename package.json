@@ -1,0 +1,23 @@
+{
+  "name": "create-tangible-plugin",
+  "description": "Create Tangible Plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "create-tangible-plugin": "index.js"
+  },
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "dependencies": {
+    "case": "^1.6.3",
+    "eta": "^1.12.3",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "picocolors": "^1.0.0"
+  },
+  "homepage": "https://bitbucket.org/tangibleinc/create-tangible-plugin",
+  "author": "Team Tangible",
+  "license": "MIT",
+  "keywords": []
+}

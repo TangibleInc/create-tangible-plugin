@@ -8,3 +8,24 @@ Here's a place for plugin documentation. It is included in the published plugin.
 git clone git@bitbucket.org:tangibleinc/<%= project.name %>.git
 npm install && composer install
 ```
+
+## Develop
+
+Build for development - watch files for changes and rebuild
+
+```sh
+npm run dev
+```
+
+Build for production
+
+```sh
+npm run build
+```
+
+Format to code standard
+
+```sh
+npm run format
+```
+

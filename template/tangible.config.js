@@ -20,7 +20,8 @@ module.exports = {
     },
   ],
   format: [
+    'assets/src',
     'includes',
-    'assets/src'
+    '*.{php,js,json}'
   ]
 }

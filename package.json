@@ -1,7 +1,7 @@
 {
   "name": "create-tangible-plugin",
-  "description": "Create Tangible Plugin",
-  "version": "1.0.2",
+  "description": "Create a plugin project",
+  "version": "1.0.3",
   "main": "index.js",
   "bin": {
     "create-tangible-plugin": "index.js"

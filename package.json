@@ -6,6 +6,9 @@
   "bin": {
     "create-tangible-plugin": "index.js"
   },
+  "tangible": {
+    "deployType": "tool"
+  },
   "scripts": {
     "release": "npm publish --access public"
   },

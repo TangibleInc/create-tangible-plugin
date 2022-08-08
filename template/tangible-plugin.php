@@ -9,7 +9,7 @@
  * License: GPLv2 or later
  */
 
-define( '<%= constant(project.name) %>', '0.0.1' );
+define( '<%= constant(project.name) %>_VERSION', '0.0.1' );
 
 require __DIR__ . '/vendor/tangible/plugin-framework/index.php';
 
@@ -29,7 +29,7 @@ add_action('plugins_loaded', function() {
     'title'          => '<%= project.title %>',
     'setting_prefix' => '<%= snake(project.name) %>',
 
-    'version'        => <%= constant(project.name) %>,
+    'version'        => <%= constant(project.name) %>_VERSION,
     'file_path'      => __FILE__,
     'base_path'      => plugin_basename( __FILE__ ),
     'dir_path'       => plugin_dir_path( __FILE__ ),

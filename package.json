@@ -20,7 +20,7 @@
     "inquirer": "^9.2.12",
     "picocolors": "^1.0.0"
   },
-  "homepage": "https://bitbucket.org/tangibleinc/create-tangible-plugin",
+  "homepage": "https://github.com/tangibleinc/create-tangible-plugin",
   "author": "Team Tangible",
   "license": "MIT",
   "keywords": []

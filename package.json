@@ -1,7 +1,8 @@
 {
   "name": "create-tangible-plugin",
   "description": "Create a plugin project",
-  "version": "1.0.4",
+  "version": "2.0.0",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "create-tangible-plugin": "index.js"
@@ -14,9 +15,9 @@
   },
   "dependencies": {
     "case": "^1.6.3",
-    "eta": "^1.12.3",
-    "fs-extra": "^10.1.0",
-    "inquirer": "^8.2.4",
+    "eta": "^3.2.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.12",
     "picocolors": "^1.0.0"
   },
   "homepage": "https://bitbucket.org/tangibleinc/create-tangible-plugin",

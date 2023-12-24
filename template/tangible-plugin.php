@@ -11,7 +11,7 @@
 
 define( '<%= constant(project.name) %>_VERSION', '0.0.1' );
 
-require __DIR__ . '/vendor/tangible/plugin-framework/index.php';
+require __DIR__ . '/vendor/tangible/framework/index.php';
 
 /**
  * Get plugin instance
@@ -23,8 +23,7 @@ function <%= snake(project.name) %>($instance = false) {
 
 add_action('plugins_loaded', function() {
 
-  $framework = tangible();
-  $plugin    = $framework->register_plugin([
+  $plugin    = tangible\plugin\register([
     'name'           => '<%= project.name %>',
     'title'          => '<%= project.title %>',
     'setting_prefix' => '<%= snake(project.name) %>',

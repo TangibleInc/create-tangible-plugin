@@ -1,6 +1,7 @@
 {
   "name": "<%= project.name %>",
   "description": "<%= project.description %>",
+  "type": "module",
   "scripts": {
     "dev": "roll dev",
     "build": "roll build",
